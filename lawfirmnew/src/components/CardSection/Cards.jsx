@@ -5,9 +5,9 @@ import LabelSection from '../LabelSection/LabelSection'
 const Cards = () => {
 
     const cardarr = [
-        {perc: "90"},
-        {perc: "90"},
-        {perc: "90"},
+        {perc: "98"},
+        {perc: "100"},
+        {perc: "100"},
     ]
   return (
     <>
@@ -18,7 +18,7 @@ const Cards = () => {
          
     {
         cardarr.map((card,index) => (
-            <CardSection key={index} perc={card.parc} />
+            <CardSection key={index} perc={card.perc} />
         ))
     }
  
