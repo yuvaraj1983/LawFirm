@@ -23,7 +23,7 @@ const HeroSection = () => {
       
     // </div>
 
-    <div  className="hero" style={{backgroundColor: "#121212", height:"270px",  marginTop: "60px", display: 'flex', flexDirection:'row', justifyContent:'center', alignItems: 'center', 
+    <div  style={{backgroundColor: "#121212", height:"270px",  marginTop: "60px", display: 'flex', flexDirection:'row', justifyContent:'center', alignItems: 'center', marginBottom:'150px'
     }}>
        <div style={{display: 'flex', flexDirection:'column', marginRight: "60px"}}>
              <Typography sx={typographysx} style={{color:'white'}}>You don't have to </Typography>
