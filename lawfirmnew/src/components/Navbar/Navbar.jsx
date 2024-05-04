@@ -20,13 +20,13 @@ const Navbar = () => {
            
                 {
                     hdr.map((header) =>(
-                        <Button sx={{color:'white'}}>{header.name}</Button>
+                        <Button sx={{color:'white', textTransform: 'none'}}>{header.name}</Button>
                     ))
                 }
                 
             </Box>
             
-            <Button sx={{marginLeft:'auto', color:'white', border: 1}} >Contact Now</Button>
+            <Button sx={{marginLeft:'auto', color:'white', border: 1, borderRadius:0, textTransform: 'none'}} >Contact Now</Button>
         </Toolbar>
        
     </AppBar>

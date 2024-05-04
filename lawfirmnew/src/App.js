@@ -1,13 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import HeroSection from './components/HeroSection/HeroSection';
 
 function App() {
   return (
     <div >
-      <header className="App-header">
-          <Navbar />    
+      <header >
+          <Navbar />   
       </header>
+            <HeroSection /> 
+
     </div>
   );
 }
